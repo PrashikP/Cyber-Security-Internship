@@ -1,0 +1,47 @@
+# Nmap 7.98 scan initiated Wed Sep  3 16:54:35 2025 as: nmap -sV -oN 03_sV.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000037s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE    VERSION
+5000/tcp open  rtsp
+5432/tcp open  postgresql PostgreSQL DB 9.6.0 or later
+7000/tcp open  rtsp
+8080/tcp open  http       SimpleHTTPServer 0.6 (Python 3.13.1)
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5000-TCP:V=7.98%I=7%D=9/3%Time=68B82579%P=arm-apple-darwin24.4.0%r(
+SF:GetRequest,90,"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Length:\x200\r\
+SF:nServer:\x20AirTunes/870\.14\.1\r\nX-Apple-ProcessingTime:\x200\r\nX-Ap
+SF:ple-RequestReceivedTimestamp:\x20168351544\r\n\r\n")%r(RTSPRequest,90,"
+SF:RTSP/1\.0\x20403\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20Air
+SF:Tunes/870\.14\.1\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestRece
+SF:ivedTimestamp:\x20168351566\r\n\r\n")%r(HTTPOptions,90,"HTTP/1\.1\x2040
+SF:3\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20AirTunes/870\.14\.
+SF:1\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\
+SF:x20168356568\r\n\r\n")%r(FourOhFourRequest,90,"HTTP/1\.1\x20403\x20Forb
+SF:idden\r\nContent-Length:\x200\r\nServer:\x20AirTunes/870\.14\.1\r\nX-Ap
+SF:ple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\x20168356
+SF:575\r\n\r\n")%r(SIPOptions,A2,"RTSP/1\.0\x20403\x20Forbidden\r\nContent
+SF:-Length:\x200\r\nServer:\x20AirTunes/870\.14\.1\r\nCSeq:\x2042\x20OPTIO
+SF:NS\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:
+SF:\x20168356580\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7000-TCP:V=7.98%I=7%D=9/3%Time=68B8257E%P=arm-apple-darwin24.4.0%r(
+SF:RTSPRequest,90,"RTSP/1\.0\x20403\x20Forbidden\r\nContent-Length:\x200\r
+SF:\nServer:\x20AirTunes/870\.14\.1\r\nX-Apple-ProcessingTime:\x202\r\nX-A
+SF:pple-RequestReceivedTimestamp:\x20168351541\r\n\r\n")%r(GetRequest,90,"
+SF:HTTP/1\.1\x20403\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20Air
+SF:Tunes/870\.14\.1\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestRece
+SF:ivedTimestamp:\x20168356543\r\n\r\n")%r(HTTPOptions,90,"HTTP/1\.1\x2040
+SF:3\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20AirTunes/870\.14\.
+SF:1\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\
+SF:x20168356553\r\n\r\n")%r(FourOhFourRequest,90,"HTTP/1\.1\x20403\x20Forb
+SF:idden\r\nContent-Length:\x200\r\nServer:\x20AirTunes/870\.14\.1\r\nX-Ap
+SF:ple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:\x20168356
+SF:560\r\n\r\n")%r(SIPOptions,A2,"RTSP/1\.0\x20403\x20Forbidden\r\nContent
+SF:-Length:\x200\r\nServer:\x20AirTunes/870\.14\.1\r\nCSeq:\x2042\x20OPTIO
+SF:NS\r\nX-Apple-ProcessingTime:\x200\r\nX-Apple-RequestReceivedTimestamp:
+SF:\x20168356567\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep  3 16:54:54 2025 -- 1 IP address (1 host up) scanned in 19.11 seconds

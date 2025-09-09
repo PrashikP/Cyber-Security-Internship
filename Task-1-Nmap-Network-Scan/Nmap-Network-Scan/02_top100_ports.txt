@@ -1,0 +1,10 @@
+# Nmap 7.98 scan initiated Wed Sep  3 16:54:20 2025 as: nmap --top-ports 100 -oN 02_top100_ports.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000044s latency).
+Not shown: 97 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+5432/tcp open  postgresql
+8080/tcp open  http-proxy
+
+# Nmap done at Wed Sep  3 16:54:20 2025 -- 1 IP address (1 host up) scanned in 0.03 seconds
